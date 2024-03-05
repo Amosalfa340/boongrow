@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transaction History</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.transaction-history-section {
+  background-color: #ffffff;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px; #111;
+}
+
+.transaction-history-section h2 {
+  color: #007bff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}</style>
+</head>
+<body>
+
+<header>
+  <h1>Transaction History</h1>
+</header>
+
+<main>
+  <section class="transaction-history-section">
+    <h2>Your Transactions</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2024-02-28</td>
+          <td>Deposit</td>
+          <td>$100.00</td>
+          <td>Initial Deposit</td>
+        </tr>
+        <!-- Add more rows for transactions -->
+      </tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p>2024 BoonGrow</p>
+</footer>
+
+</body>
+</html>

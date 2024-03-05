@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Settings</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+  body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #255dbd;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.privacy-section {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.privacy-section h2 {
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}</style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Settings</h1>
+</header>
+
+<main>
+  <section class="privacy-section">
+    <h2>Manage Privacy Preferences</h2>
+    <form id="privacyForm">
+      <div class="form-group">
+        <input type="checkbox" id="enableTracking" name="enableTracking">
+        <label for="enableTracking">Enable Tracking</label>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="showOnlineStatus" name="showOnlineStatus">
+        <label for="showOnlineStatus">Show Online Status</label>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="shareData" name="shareData">
+        <label for="shareData">Share Data for Analytics</label>
+      </div>
+      <button type="submit">Save Preferences</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p> 2024 Boongrow</p>
+</footer>
+
+</body>
+</html>

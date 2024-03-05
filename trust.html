@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trusted Devices</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.devices-section {
+  background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 15px; #111);
+}
+
+.devices-section h2 {
+  color: #007bff;
+}
+
+.devices-section p {
+  margin-bottom: 20px;
+}
+
+.device-list {
+  list-style: none;
+  padding: 0;
+}
+
+.device-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.device-list li i {
+  margin-right: 10px;
+}
+
+.device-list li button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.device-list li button:hover {
+  background-color: #c82333;
+}</style>
+</head>
+<body>
+
+<header>
+  <h1>Trusted Devices</h1>
+</header>
+
+<main>
+  <section class="devices-section">
+    <h2>Manage Trusted Devices</h2>
+    <p>This is a list of devices that have been authorized to access your account. You can remove any device from the list if you no longer trust it.</p>
+    <ul class="device-list">
+      <li>
+        <i class="fas fa-laptop"></i>
+        <span>Camon 19</span>
+        <button>Remove</button>
+      </li>
+      <li>
+        <i class="fas fa-tablet-alt"></i>
+        <span>Chrome 12</span>
+        <button>Remove</button>
+      </li>
+      <!-- Add more devices as needed -->
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p> 2024 Boongrow</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Withdraw Funds</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.withdraw-funds-section {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px; #111;
+}
+
+.withdraw-funds-section h2 {
+  color: #007bff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0056b3;
+}</style>
+</head>
+<body>
+
+<header>
+  <h1>Withdraw Funds</h1>
+</header>
+
+<main>
+  <section class="withdraw-funds-section">
+    <h2>Withdraw Your Funds</h2>
+    <form id="withdrawFundsForm">
+      <div class="form-group">
+        <label for="amount">Amount to Withdraw:</label>
+        <input type="text" id="amount" name="amount" required>
+      </div>
+      <div class="form-group">
+        <label for="bankAccount">Bank Account:</label>
+        <input type="text" id="bankAccount" name="bankAccount" required>
+      </div>
+      <button type="submit">Withdraw Funds</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>2024 BoonGrow</p>
+</footer>
+
+</body>
+</html>
